@@ -1,0 +1,70 @@
+[
+  {
+    "machine_id": "robotic_arm_1",
+    "timestamp": "2026-03-13T16:30:00Z",
+    "diagnosis": "Joint 1 bearing showing thermal stress \u2014 temperature exceeded critical threshold during production cycle.",
+    "recommended_action": "Inspect Joint 1 bearing immediately. Check lubrication. Limit operation to 70% speed until inspection complete.",
+    "severity": "high",
+    "confidence_score": 0.88,
+    "supporting_evidence": [
+      {
+        "description": "Joint 1 temperature reached 96.2\u00b0C, exceeding critical threshold of 100\u00b0C",
+        "source": "sensor"
+      },
+      {
+        "description": "E_JOINT_TEMP_CRITICAL event recorded during afternoon shift",
+        "source": "error_code"
+      },
+      {
+        "description": "Cycle time degraded 9% \u2014 consistent with joint resistance increase",
+        "source": "log"
+      }
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "robotic_arm_1",
+    "timestamp": "2026-03-14T08:15:00Z",
+    "diagnosis": "Critical joint bearing failure \u2014 machine halted by emergency thermal safety system.",
+    "recommended_action": "DO NOT restart. Replace Joint 1 bearing immediately. Full robot inspection required before returning to service.",
+    "severity": "critical",
+    "confidence_score": 0.95,
+    "supporting_evidence": [
+      {
+        "description": "Joint 1 temperature at 104.7\u00b0C \u2014 4.7\u00b0C above critical threshold",
+        "source": "sensor"
+      },
+      {
+        "description": "E_JOINT_TEMP_CRITICAL triggered 3 times in past 2 hours",
+        "source": "error_code"
+      },
+      {
+        "description": "Emergency stop activated by thermal safety system",
+        "source": "log"
+      },
+      {
+        "description": "Servo current at 8.9A \u2014 99% of critical limit",
+        "source": "sensor"
+      }
+    ],
+    "source": "rules_fallback",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "robotic_arm_1",
+    "timestamp": "2026-03-14T23:04:08.729121+00:00",
+    "diagnosis": "Critical temperature detected on joint_1_temperature: 104.7\u00b0C",
+    "recommended_action": "Shut down machine immediately. Inspect cooling system, lubrication, and ventilation. Do not restart until temperature returns to normal range.",
+    "severity": "critical",
+    "confidence_score": 0.95,
+    "supporting_evidence": [
+      {
+        "description": "joint_1_temperature = 104.7\u00b0C (critical threshold exceeded)",
+        "source": "sensor"
+      }
+    ],
+    "source": "rules_fallback",
+    "raw_sensor_snapshot": null
+  }
+]

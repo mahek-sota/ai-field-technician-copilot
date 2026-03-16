@@ -1,0 +1,19 @@
+2026-03-01T08:00:00Z [INFO] compressor_2: Scheduled maintenance completed — last balancing performed
+2026-03-10T06:00:00Z [INFO] compressor_2: System startup — all readings nominal
+2026-03-10T10:00:00Z [INFO] compressor_2: Discharge pressure stable: 7.0 bar
+2026-03-11T06:00:00Z [INFO] compressor_2: Daily startup — motor current 19.8A
+2026-03-11T14:00:00Z [WARN] compressor_2: W_VIBRATION_ELEVATED — vibration 4.8 mm/s, above warning threshold
+2026-03-12T06:00:00Z [INFO] compressor_2: System startup
+2026-03-12T08:00:00Z [WARN] compressor_2: W_VIBRATION_ELEVATED — vibration 5.1 mm/s — trending up
+2026-03-12T10:00:00Z [WARN] compressor_2: W_MOTOR_CURRENT_HIGH — motor current 20.9A (warning: 20.0A)
+2026-03-12T14:00:00Z [WARN] compressor_2: W_IMBALANCE_DETECTED — asymmetric vibration signature on rotor scan
+2026-03-13T06:00:00Z [INFO] compressor_2: System startup
+2026-03-13T09:00:00Z [WARN] compressor_2: W_VIBRATION_ELEVATED — vibration 5.5 mm/s (warning: 4.5 mm/s)
+2026-03-13T11:00:00Z [WARN] compressor_2: Maintenance overdue — balancing not performed since 2026-03-01
+2026-03-13T14:00:00Z [WARN] compressor_2: W_MOTOR_CURRENT_HIGH — current 21.4A, increasing load
+2026-03-14T06:00:00Z [INFO] compressor_2: System startup
+2026-03-14T07:00:00Z [WARN] compressor_2: W_VIBRATION_ELEVATED — vibration 5.8 mm/s — above warning for 30 min
+2026-03-14T07:30:00Z [WARN] compressor_2: W_MOTOR_CURRENT_HIGH — motor drawing 22.1A (nominal 18A)
+2026-03-14T07:45:00Z [WARN] compressor_2: W_IMBALANCE_DETECTED — imbalance signature worsening
+2026-03-14T08:00:00Z [WARN] compressor_2: Vibration trending toward critical threshold — balancing required soon
+2026-03-14T08:30:00Z [WARN] compressor_2: Maintenance supervisor alerted — vibration analysis scheduled

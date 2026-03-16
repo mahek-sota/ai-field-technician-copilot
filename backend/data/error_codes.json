@@ -1,0 +1,74 @@
+{
+  "W_TEMP_HIGH": {
+    "description": "Motor or component temperature exceeded warning threshold",
+    "typical_cause": "Bearing wear, insufficient cooling, overloaded motor, blocked ventilation",
+    "severity": "warning",
+    "recommended_check": "Inspect cooling fan, check bearing lubrication, verify airflow"
+  },
+  "W_MOTOR_STRESS": {
+    "description": "Motor operating under elevated stress — current above nominal",
+    "typical_cause": "Increased mechanical load from friction, bearing wear, or drive misalignment",
+    "severity": "warning",
+    "recommended_check": "Check belt tension, inspect motor bearings, verify drive alignment"
+  },
+  "E_JOINT_TEMP_CRITICAL": {
+    "description": "Robotic arm joint temperature exceeded critical threshold",
+    "typical_cause": "Joint bearing failure, loss of lubrication, servo motor overheating",
+    "severity": "critical",
+    "recommended_check": "Inspect joint bearing, check lubrication levels, verify servo cooling"
+  },
+  "W_VIBRATION_HIGH": {
+    "description": "Vibration level above warning threshold on robotic arm",
+    "typical_cause": "Joint bearing wear, loose fasteners, servo resonance, load imbalance",
+    "severity": "warning",
+    "recommended_check": "Inspect joints and fasteners, check bearing play, review servo tuning"
+  },
+  "E_SERVO_OVERCURRENT": {
+    "description": "Servo motor current approaching or exceeding critical limit",
+    "typical_cause": "Mechanical obstruction, bearing seizure, electrical fault in servo drive",
+    "severity": "critical",
+    "recommended_check": "Inspect for mechanical obstruction, check servo drive, test motor windings"
+  },
+  "W_CYCLE_DEGRADED": {
+    "description": "Machine cycle time significantly above nominal",
+    "typical_cause": "Joint stiffness from wear, software throttle due to thermal condition, mechanical friction",
+    "severity": "warning",
+    "recommended_check": "Review motion program, check joint health, verify no obstruction in work area"
+  },
+  "E_PRESSURE_LOW": {
+    "description": "Hydraulic outlet pressure critically below operating minimum",
+    "typical_cause": "Seal failure, pump wear, internal bypass, blockage on inlet",
+    "severity": "critical",
+    "recommended_check": "Inspect all seals, check pump impeller, verify inlet valve open"
+  },
+  "W_FLOW_REDUCED": {
+    "description": "Hydraulic flow rate below nominal operating level",
+    "typical_cause": "Partial seal failure, pump cavitation, partially closed valve, filter blockage",
+    "severity": "warning",
+    "recommended_check": "Check inline filters, inspect valves, test pump output at no-load"
+  },
+  "W_SEAL_INTEGRITY": {
+    "description": "Hydraulic seal pressure differential outside acceptable specification",
+    "typical_cause": "Seal aging, contaminated fluid, incorrect installation, thermal cycling damage",
+    "severity": "warning",
+    "recommended_check": "Replace seal pack, flush hydraulic fluid, inspect seal surfaces"
+  },
+  "W_VIBRATION_ELEVATED": {
+    "description": "Overall vibration above warning threshold for extended period",
+    "typical_cause": "Rotor imbalance, loose mounting, worn bearings, resonance at operating speed",
+    "severity": "warning",
+    "recommended_check": "Perform dynamic balancing, tighten mounting bolts, inspect bearings"
+  },
+  "W_MOTOR_CURRENT_HIGH": {
+    "description": "Motor current draw above nominal rated amperage",
+    "typical_cause": "Increased mechanical load from imbalance, bearing friction, or drive inefficiency",
+    "severity": "warning",
+    "recommended_check": "Verify load conditions, inspect bearings, check motor efficiency"
+  },
+  "W_IMBALANCE_DETECTED": {
+    "description": "Asymmetric vibration signature detected — indicative of rotor mass imbalance",
+    "typical_cause": "Material buildup on rotor, damaged impeller blade, partial coupling failure",
+    "severity": "warning",
+    "recommended_check": "Clean rotor surfaces, inspect impeller blades, perform dynamic balance test"
+  }
+}

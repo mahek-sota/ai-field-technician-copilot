@@ -1,0 +1,20 @@
+2026-03-12T06:00:00Z [INFO] conveyor_2: System startup complete
+2026-03-12T06:00:10Z [INFO] conveyor_2: Belt speed nominal: 1.1 m/s
+2026-03-12T10:30:00Z [WARN] conveyor_2: Belt temperature rising — currently 71.2°C (threshold: 80°C)
+2026-03-12T11:00:00Z [WARN] conveyor_2: W_TEMP_HIGH — temperature above warning threshold
+2026-03-12T14:23:00Z [WARN] conveyor_2: W_TEMP_HIGH — motor cooling fan efficiency check recommended
+2026-03-12T16:45:00Z [INFO] conveyor_2: Belt speed auto-reduced to 1.0 m/s due to thermal condition
+2026-03-13T06:00:00Z [INFO] conveyor_2: System restart — overnight idle period complete
+2026-03-13T06:05:00Z [WARN] conveyor_2: Temperature already at 73.5°C on startup — residual heat
+2026-03-13T09:15:00Z [WARN] conveyor_2: W_TEMP_HIGH — temperature above warning threshold (75.8°C)
+2026-03-13T11:30:00Z [WARN] conveyor_2: Motor current elevated: 16.4A — above nominal 13A
+2026-03-13T14:00:00Z [WARN] conveyor_2: W_MOTOR_STRESS — motor load elevated, possible bearing friction
+2026-03-13T16:20:00Z [INFO] conveyor_2: Operator inspection — no visible defects noted
+2026-03-14T06:00:00Z [INFO] conveyor_2: System startup
+2026-03-14T06:10:00Z [WARN] conveyor_2: Temperature at 76.1°C and rising
+2026-03-14T07:00:00Z [WARN] conveyor_2: W_TEMP_HIGH — temperature 78.5°C, trending upward
+2026-03-14T07:30:00Z [WARN] conveyor_2: Vibration trending up: 2.1 mm/s (was 1.4 mm/s yesterday)
+2026-03-14T07:45:00Z [WARN] conveyor_2: W_TEMP_HIGH — temperature still above threshold after 90 min
+2026-03-14T08:00:00Z [WARN] conveyor_2: Belt speed reduced to 1.1 m/s — thermal protection active
+2026-03-14T08:10:00Z [WARN] conveyor_2: Both temperature and vibration elevated — bearing inspection recommended
+2026-03-14T08:30:00Z [WARN] conveyor_2: Maintenance supervisor notified — pending inspection ticket #4471

@@ -1,0 +1,20 @@
+2026-02-28T10:00:00Z [WARN] pump_4: W_SEAL_INTEGRITY — seal pressure differential outside spec
+2026-02-28T10:05:00Z [INFO] pump_4: Maintenance ticket raised — seal inspection scheduled
+2026-03-01T09:00:00Z [INFO] pump_4: Inspection completed — technician noted minor seal wear, deferred replacement
+2026-03-10T14:00:00Z [WARN] pump_4: W_SEAL_INTEGRITY — oil contamination detected near rear seal assembly
+2026-03-12T08:00:00Z [INFO] pump_4: System startup — pressure nominal on init
+2026-03-12T09:30:00Z [WARN] pump_4: Outlet pressure declining: 3.2 bar (min operating: 3.0 bar)
+2026-03-12T11:00:00Z [ERROR] pump_4: E_PRESSURE_LOW — outlet pressure 2.8 bar, below critical threshold 2.0 bar
+2026-03-12T11:05:00Z [INFO] pump_4: Auto-restart attempted — pressure still low post-restart
+2026-03-13T06:00:00Z [INFO] pump_4: System restart after overnight
+2026-03-13T07:00:00Z [ERROR] pump_4: E_PRESSURE_LOW — outlet pressure 2.2 bar — critical
+2026-03-13T08:00:00Z [WARN] pump_4: W_FLOW_REDUCED — flow rate 16.8 L/min (nominal 30 L/min)
+2026-03-13T10:00:00Z [ERROR] pump_4: E_PRESSURE_LOW — pressure recovery failed after restart attempt
+2026-03-13T14:00:00Z [WARN] pump_4: W_FLOW_REDUCED — flow rate 14.2 L/min, continuing to decline
+2026-03-14T06:00:00Z [INFO] pump_4: System startup
+2026-03-14T06:15:00Z [ERROR] pump_4: E_PRESSURE_LOW — outlet 1.8 bar — critically low
+2026-03-14T06:20:00Z [WARN] pump_4: W_FLOW_REDUCED — flow rate 12.4 L/min (59% below nominal)
+2026-03-14T06:30:00Z [ERROR] pump_4: E_PRESSURE_LOW — sustained low-pressure event — seal integrity suspect
+2026-03-14T07:00:00Z [WARN] pump_4: W_SEAL_INTEGRITY — oil contamination increasing — seal failure imminent
+2026-03-14T07:30:00Z [ERROR] pump_4: Pump cavitation detected — air ingestion likely from failed seal
+2026-03-14T08:00:00Z [ERROR] pump_4: CRITICAL — complete pump failure risk — immediate shutdown recommended

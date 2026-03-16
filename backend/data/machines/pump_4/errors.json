@@ -1,0 +1,9 @@
+[
+  "E_PRESSURE_LOW: Outlet pressure critically below operating minimum (1.8 bar vs 2.0 bar critical)",
+  "E_PRESSURE_LOW: Pressure recovery failed after restart attempt",
+  "E_PRESSURE_LOW: Sustained low-pressure event — seal integrity suspect",
+  "W_FLOW_REDUCED: Flow rate 38% below nominal — internal bypass suspected",
+  "W_FLOW_REDUCED: Flow rate continuing to decline — 12.4 L/min",
+  "W_SEAL_INTEGRITY: Seal pressure differential outside spec — inspect seal pack",
+  "W_SEAL_INTEGRITY: Oil contamination detected near rear seal assembly"
+]

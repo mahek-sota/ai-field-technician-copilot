@@ -1,0 +1,82 @@
+[
+  {
+    "machine_id": "compressor_2",
+    "timestamp": "2026-03-11T16:00:00Z",
+    "diagnosis": "Rotor imbalance developing \u2014 vibration trending upward over past 3 days.",
+    "recommended_action": "Schedule dynamic balancing within 5 days. Monitor vibration daily. Inspect mounting bolts.",
+    "severity": "medium",
+    "confidence_score": 0.78,
+    "supporting_evidence": [
+      {
+        "description": "Vibration at 4.8 mm/s, above warning threshold of 4.5 mm/s",
+        "source": "sensor"
+      },
+      {
+        "description": "W_VIBRATION_ELEVATED recurred on multiple shifts",
+        "source": "error_code"
+      },
+      {
+        "description": "Last balancing performed over 2 weeks ago",
+        "source": "log"
+      }
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "compressor_2",
+    "timestamp": "2026-03-13T15:00:00Z",
+    "diagnosis": "Worsening rotor imbalance \u2014 vibration signature consistent with progressive mass asymmetry.",
+    "recommended_action": "Balancing required within 48 hours. If vibration exceeds 7.0 mm/s, shut down immediately.",
+    "severity": "medium",
+    "confidence_score": 0.81,
+    "supporting_evidence": [
+      {
+        "description": "Vibration at 5.5 mm/s \u2014 22% above warning threshold",
+        "source": "sensor"
+      },
+      {
+        "description": "W_IMBALANCE_DETECTED \u2014 asymmetric vibration signature confirmed",
+        "source": "error_code"
+      },
+      {
+        "description": "Motor current elevated 19% above nominal \u2014 increased mechanical load",
+        "source": "sensor"
+      }
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "compressor_2",
+    "timestamp": "2026-03-15T08:19:54.892135+00:00",
+    "diagnosis": "Systematic fault detected \u2014 error 'W_VIBRATION_ELEVATED' has occurred 3 times",
+    "recommended_action": "Investigate root cause of recurring fault. Check related subsystem components and wiring. Review maintenance history.",
+    "severity": "high",
+    "confidence_score": 0.82,
+    "supporting_evidence": [
+      {
+        "description": "Error code 'W_VIBRATION_ELEVATED' recurred 3 times \u2014 indicates unresolved underlying fault",
+        "source": "error_code"
+      }
+    ],
+    "source": "rules_fallback",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "compressor_2",
+    "timestamp": "2026-03-16T03:02:50.797463+00:00",
+    "diagnosis": "Systematic fault detected \u2014 error 'W_VIBRATION_ELEVATED' has occurred 3 times",
+    "recommended_action": "Investigate root cause of recurring fault. Check related subsystem components and wiring. Review maintenance history.",
+    "severity": "high",
+    "confidence_score": 0.82,
+    "supporting_evidence": [
+      {
+        "description": "Error code 'W_VIBRATION_ELEVATED' recurred 3 times \u2014 indicates unresolved underlying fault",
+        "source": "error_code"
+      }
+    ],
+    "source": "rules_fallback",
+    "raw_sensor_snapshot": null
+  }
+]

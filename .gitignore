@@ -1,0 +1,5 @@
+# Ignore environment files with secrets
+.env
+
+# Allow the example template
+!.env.example

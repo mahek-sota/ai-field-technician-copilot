@@ -1,0 +1,34 @@
+[
+  {
+    "name": "joint_1_temperature",
+    "value": 104.7,
+    "unit": "°C",
+    "threshold_warning": 85.0,
+    "threshold_critical": 100.0,
+    "status": "critical"
+  },
+  {
+    "name": "joint_2_temperature",
+    "value": 78.1,
+    "unit": "°C",
+    "threshold_warning": 85.0,
+    "threshold_critical": 100.0,
+    "status": "normal"
+  },
+  {
+    "name": "arm_vibration",
+    "value": 4.3,
+    "unit": "mm/s",
+    "threshold_warning": 3.0,
+    "threshold_critical": 6.0,
+    "status": "warning"
+  },
+  {
+    "name": "servo_current_j1",
+    "value": 8.9,
+    "unit": "A",
+    "threshold_warning": 7.0,
+    "threshold_critical": 9.0,
+    "status": "warning"
+  }
+]

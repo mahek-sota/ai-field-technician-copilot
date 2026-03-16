@@ -1,0 +1,31 @@
+[
+  {
+    "machine_id": "conveyor_2",
+    "timestamp": "2026-03-10T09:00:00Z",
+    "diagnosis": "Motor temperature slightly elevated — early-stage cooling degradation detected.",
+    "recommended_action": "Clean cooling fans and inspect heat exchanger. Monitor temperature for next 48 hours.",
+    "severity": "low",
+    "confidence_score": 0.72,
+    "supporting_evidence": [
+      {"description": "Belt temperature at 68°C, below warning threshold but trending up", "source": "sensor"},
+      {"description": "No error codes at time of diagnosis", "source": "error_code"}
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "conveyor_2",
+    "timestamp": "2026-03-12T15:00:00Z",
+    "diagnosis": "Bearing wear suspected — elevated temperature with increasing vibration trend.",
+    "recommended_action": "Schedule bearing inspection within 48 hours. Monitor temperature closely. Reduce belt speed if temperature exceeds 82°C.",
+    "severity": "medium",
+    "confidence_score": 0.79,
+    "supporting_evidence": [
+      {"description": "Temperature at 75.8°C, above warning threshold of 80°C", "source": "sensor"},
+      {"description": "W_TEMP_HIGH error occurred 3 times in past 24 hours", "source": "error_code"},
+      {"description": "Motor current elevated suggesting friction increase", "source": "sensor"}
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": null
+  }
+]

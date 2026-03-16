@@ -1,0 +1,6 @@
+{
+  "machine_id": "robotic_arm_1",
+  "name": "Robotic Arm Delta",
+  "type": "Robotic Arm",
+  "location": "Assembly Station C"
+}

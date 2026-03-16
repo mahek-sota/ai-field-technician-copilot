@@ -1,0 +1,104 @@
+[
+  {
+    "machine_id": "conveyor_1",
+    "timestamp": "2026-03-01T10:00:00Z",
+    "diagnosis": "Machine operating within all normal parameters \u2014 no faults detected.",
+    "recommended_action": "Continue current maintenance schedule. Next lubrication cycle due in 14 days.",
+    "severity": "low",
+    "confidence_score": 0.94,
+    "supporting_evidence": [
+      {
+        "description": "All 4 sensor readings within normal operating range",
+        "source": "sensor"
+      },
+      {
+        "description": "No error codes logged in past 7 days",
+        "source": "error_code"
+      },
+      {
+        "description": "Belt speed and tension nominal throughout shift",
+        "source": "log"
+      }
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "conveyor_1",
+    "timestamp": "2026-03-07T14:30:00Z",
+    "diagnosis": "Healthy machine \u2014 all systems operating normally after scheduled maintenance.",
+    "recommended_action": "No action required. Resume normal production schedule.",
+    "severity": "low",
+    "confidence_score": 0.96,
+    "supporting_evidence": [
+      {
+        "description": "Post-maintenance inspection all clear",
+        "source": "log"
+      },
+      {
+        "description": "Motor current and vibration nominal",
+        "source": "sensor"
+      }
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "conveyor_1",
+    "timestamp": "2026-03-14T23:04:08.712647+00:00",
+    "diagnosis": "Bearing wear detected due to elevated temperature and rising vibration trend.",
+    "recommended_action": "Schedule immediate inspection of motor assembly. Lubricate or replace bearing if wear is confirmed. Monitor temperature for next 2 hours.",
+    "severity": "high",
+    "confidence_score": 0.83,
+    "supporting_evidence": [
+      {
+        "description": "Temperature sensor above warning threshold, consistent with bearing friction",
+        "source": "sensor"
+      },
+      {
+        "description": "Vibration level trending upward, indicative of bearing degradation",
+        "source": "sensor"
+      },
+      {
+        "description": "Recurring temperature error codes over the past 48 hours",
+        "source": "error_code"
+      }
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": {
+      "belt_temperature": 68.4,
+      "motor_vibration": 1.8,
+      "belt_speed": 1.2,
+      "motor_current": 12.3
+    }
+  },
+  {
+    "machine_id": "conveyor_1",
+    "timestamp": "2026-03-14T23:04:08.734904+00:00",
+    "diagnosis": "Bearing wear detected due to elevated temperature and rising vibration trend.",
+    "recommended_action": "Schedule immediate inspection of motor assembly. Lubricate or replace bearing if wear is confirmed. Monitor temperature for next 2 hours.",
+    "severity": "high",
+    "confidence_score": 0.83,
+    "supporting_evidence": [
+      {
+        "description": "Temperature sensor above warning threshold, consistent with bearing friction",
+        "source": "sensor"
+      },
+      {
+        "description": "Vibration level trending upward, indicative of bearing degradation",
+        "source": "sensor"
+      },
+      {
+        "description": "Recurring temperature error codes over the past 48 hours",
+        "source": "error_code"
+      }
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": {
+      "belt_temperature": 68.4,
+      "motor_vibration": 1.8,
+      "belt_speed": 1.2,
+      "motor_current": 12.3
+    }
+  }
+]

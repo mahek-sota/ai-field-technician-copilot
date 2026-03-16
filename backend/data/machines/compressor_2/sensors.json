@@ -1,0 +1,42 @@
+[
+  {
+    "name": "discharge_pressure",
+    "value": 7.2,
+    "unit": "bar",
+    "threshold_warning": 8.5,
+    "threshold_critical": 10.0,
+    "status": "normal"
+  },
+  {
+    "name": "discharge_temperature",
+    "value": 78.9,
+    "unit": "°C",
+    "threshold_warning": 90.0,
+    "threshold_critical": 105.0,
+    "status": "normal"
+  },
+  {
+    "name": "oil_pressure",
+    "value": 2.9,
+    "unit": "bar",
+    "threshold_warning": 2.5,
+    "threshold_critical": 2.0,
+    "status": "normal"
+  },
+  {
+    "name": "vibration_overall",
+    "value": 5.8,
+    "unit": "mm/s",
+    "threshold_warning": 4.5,
+    "threshold_critical": 7.0,
+    "status": "warning"
+  },
+  {
+    "name": "motor_current",
+    "value": 22.1,
+    "unit": "A",
+    "threshold_warning": 20.0,
+    "threshold_critical": 25.0,
+    "status": "warning"
+  }
+]

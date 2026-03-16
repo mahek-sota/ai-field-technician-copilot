@@ -1,0 +1,42 @@
+[
+  {
+    "name": "outlet_pressure",
+    "value": 1.8,
+    "unit": "bar",
+    "threshold_warning": 3.0,
+    "threshold_critical": 2.0,
+    "status": "critical"
+  },
+  {
+    "name": "inlet_pressure",
+    "value": 0.7,
+    "unit": "bar",
+    "threshold_warning": 0.5,
+    "threshold_critical": 0.3,
+    "status": "normal"
+  },
+  {
+    "name": "pump_temperature",
+    "value": 74.5,
+    "unit": "°C",
+    "threshold_warning": 80.0,
+    "threshold_critical": 90.0,
+    "status": "normal"
+  },
+  {
+    "name": "flow_rate",
+    "value": 12.4,
+    "unit": "L/min",
+    "threshold_warning": 20.0,
+    "threshold_critical": 15.0,
+    "status": "warning"
+  },
+  {
+    "name": "motor_vibration",
+    "value": 2.1,
+    "unit": "mm/s",
+    "threshold_warning": 3.5,
+    "threshold_critical": 6.0,
+    "status": "normal"
+  }
+]

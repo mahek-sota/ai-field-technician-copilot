@@ -1,0 +1,7 @@
+[
+  "W_VIBRATION_ELEVATED: Overall vibration above warning for 30 min (5.8 mm/s)",
+  "W_VIBRATION_ELEVATED: Vibration trending upward — rotor imbalance suspected",
+  "W_VIBRATION_ELEVATED: Maintenance overdue — last balancing 6 months ago",
+  "W_MOTOR_CURRENT_HIGH: Motor drawing above nominal amperage (22.1A vs 20.0A warning)",
+  "W_IMBALANCE_DETECTED: Asymmetric vibration signature detected on rotor scan"
+]

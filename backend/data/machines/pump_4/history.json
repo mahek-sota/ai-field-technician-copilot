@@ -1,0 +1,70 @@
+[
+  {
+    "machine_id": "pump_4",
+    "timestamp": "2026-02-28T11:00:00Z",
+    "diagnosis": "Seal wear detected \u2014 minor seal deterioration flagged during routine inspection.",
+    "recommended_action": "Schedule seal replacement within 2 weeks. Monitor pressure differential daily.",
+    "severity": "medium",
+    "confidence_score": 0.74,
+    "supporting_evidence": [
+      {
+        "description": "W_SEAL_INTEGRITY warning \u2014 pressure differential outside spec",
+        "source": "error_code"
+      },
+      {
+        "description": "All other sensor readings within normal range",
+        "source": "sensor"
+      }
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "pump_4",
+    "timestamp": "2026-03-12T12:00:00Z",
+    "diagnosis": "Hydraulic seal failure in progress \u2014 critical pressure loss with declining flow rate.",
+    "recommended_action": "Shut down pump. Replace rear seal assembly immediately. Do not operate until repairs complete.",
+    "severity": "critical",
+    "confidence_score": 0.91,
+    "supporting_evidence": [
+      {
+        "description": "Outlet pressure at 2.8 bar \u2014 below critical threshold of 2.0 bar and falling",
+        "source": "sensor"
+      },
+      {
+        "description": "Flow rate at 16.8 L/min \u2014 44% below nominal",
+        "source": "sensor"
+      },
+      {
+        "description": "E_PRESSURE_LOW triggered after restart attempt failed to restore pressure",
+        "source": "error_code"
+      },
+      {
+        "description": "Oil contamination near rear seal assembly observed in logs",
+        "source": "log"
+      }
+    ],
+    "source": "llm",
+    "raw_sensor_snapshot": null
+  },
+  {
+    "machine_id": "pump_4",
+    "timestamp": "2026-03-14T23:04:08.732179+00:00",
+    "diagnosis": "Abnormal pressure reading on outlet_pressure",
+    "recommended_action": "Check for leaks in the pneumatic/hydraulic circuit. Inspect seals, hoses, and fittings. Verify pump operation.",
+    "severity": "critical",
+    "confidence_score": 0.88,
+    "supporting_evidence": [
+      {
+        "description": "outlet_pressure = 1.8bar \u2014 below threshold",
+        "source": "sensor"
+      },
+      {
+        "description": "Pressure-related error code in log",
+        "source": "error_code"
+      }
+    ],
+    "source": "rules_fallback",
+    "raw_sensor_snapshot": null
+  }
+]

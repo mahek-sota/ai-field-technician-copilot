@@ -1,0 +1,8 @@
+[
+  "E_JOINT_TEMP_CRITICAL: Joint 1 temperature exceeded critical threshold (104.7°C > 100°C)",
+  "E_JOINT_TEMP_CRITICAL: Joint 1 repeated overheat event — auto-throttle engaged",
+  "E_JOINT_TEMP_CRITICAL: Joint 1 temperature still critical after 10-minute cooldown",
+  "W_VIBRATION_HIGH: Arm vibration above warning level — 4.3 mm/s",
+  "E_SERVO_OVERCURRENT: Servo J1 current approaching critical limit (8.9A vs 9.0A critical)",
+  "W_CYCLE_DEGRADED: Cycle time increased 22% — kinematic resistance detected"
+]

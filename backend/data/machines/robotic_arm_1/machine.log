@@ -1,0 +1,20 @@
+2026-03-13T06:00:00Z [INFO] robotic_arm_1: System startup — joint calibration sequence initiated
+2026-03-13T06:05:00Z [INFO] robotic_arm_1: All joints calibrated — zero-point reference OK
+2026-03-13T08:00:00Z [INFO] robotic_arm_1: Production cycle started — nominal cycle time 6.5s
+2026-03-13T10:15:00Z [WARN] robotic_arm_1: Joint 1 temperature rising: 82.3°C (warning: 85°C)
+2026-03-13T11:00:00Z [WARN] robotic_arm_1: W_VIBRATION_HIGH — arm vibration 3.8 mm/s
+2026-03-13T13:30:00Z [WARN] robotic_arm_1: Cycle time degraded to 7.1s — kinematic resistance suspected
+2026-03-13T15:00:00Z [ERROR] robotic_arm_1: E_JOINT_TEMP_CRITICAL — Joint 1 at 96.2°C, threshold 100°C
+2026-03-13T15:01:00Z [INFO] robotic_arm_1: Auto-throttle engaged — speed reduced 30%
+2026-03-13T16:00:00Z [INFO] robotic_arm_1: End-of-shift shutdown — temperature cooldown started
+2026-03-14T06:00:00Z [INFO] robotic_arm_1: Morning startup — Joint 1 temperature: 67°C (residual)
+2026-03-14T06:30:00Z [WARN] robotic_arm_1: Joint 1 temperature climbing faster than normal: 88.4°C after 30min
+2026-03-14T07:00:00Z [ERROR] robotic_arm_1: E_JOINT_TEMP_CRITICAL — Joint 1 at 101.5°C — CRITICAL
+2026-03-14T07:01:00Z [ERROR] robotic_arm_1: E_SERVO_OVERCURRENT — Servo J1 current 8.9A (critical: 9.0A)
+2026-03-14T07:02:00Z [WARN] robotic_arm_1: W_VIBRATION_HIGH — arm vibration 4.3 mm/s
+2026-03-14T07:15:00Z [ERROR] robotic_arm_1: E_JOINT_TEMP_CRITICAL — cooldown ineffective, temp still 102°C
+2026-03-14T07:30:00Z [WARN] robotic_arm_1: W_CYCLE_DEGRADED — cycle time 8.2s (22% above nominal)
+2026-03-14T07:45:00Z [ERROR] robotic_arm_1: E_JOINT_TEMP_CRITICAL — Joint 1 at 104.7°C — IMMEDIATE ACTION REQUIRED
+2026-03-14T07:46:00Z [ERROR] robotic_arm_1: EMERGENCY STOP triggered by thermal safety system
+2026-03-14T07:46:05Z [INFO] robotic_arm_1: Machine halted — awaiting technician clearance
+2026-03-14T08:00:00Z [WARN] robotic_arm_1: Machine in SAFE-STOP state — do not restart without inspection
