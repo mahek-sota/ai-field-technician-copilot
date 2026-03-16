@@ -7,6 +7,10 @@ An AI-powered web application for industrial machine diagnostics. Field technici
 Formant’s platform focuses on enabling AI agents to observe machines,
 analyze system behavior, and assist operators in real-world operations.
 
+This project was built over a weekend while exploring ideas around how
+Formant-style physical AI systems could assist field technicians during
+machine failures.
+
 This prototype explores one small extension of that idea:
 
 An AI assistant that analyzes machine telemetry and logs to produce
@@ -15,6 +19,19 @@ a structured diagnosis and recommended corrective actions for field technicians.
 The goal of the project is to simulate how an intelligent agent could
 triage machine alerts before escalation and assist technicians with
 faster root-cause analysis.
+
+## Demo Flow
+
+1. Technician selects a machine
+2. System loads current sensor telemetry and recent machine errors
+3. A deterministic rules engine evaluates known fault patterns
+4. If no high-confidence rule fires, an LLM analyzes telemetry + logs
+5. The system returns:
+   - probable root cause
+   - recommended corrective action
+   - severity level
+   - confidence score
+
 ## Quick Start
 
 ### Backend (FastAPI + Python)
@@ -65,8 +82,8 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for the complete system specification i
 ## Project Structure
 
 ```
-demo-proj-formant/
-├── ARCHITECTURE.md        — canonical spec for all agents
+ai-field-technician-copilot/
+├── ARCHITECTURE.md        
 ├── backend/
 │   ├── app/
 │   │   ├── main.py        — FastAPI app entry point
